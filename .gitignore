@@ -1,0 +1,18 @@
+# Ignore all .pyc files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore dataset files (if they are not needed in version control)
+data/dataset_test.pkl
+data/fma_large.zip
+data/
+
+# Ignore log files
+code/log/
+
+# Ignore any other unnecessary files like compiled models, etc.
+code/model/best_model.pt
+
+data/dataset_not_negative_256_clean.pkl
+data/dataset_full_256.pkl
